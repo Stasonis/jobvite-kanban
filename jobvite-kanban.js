@@ -3,9 +3,7 @@ if(typeof window.jobviteKanbanLoaded == "undefined") {
 
 	window.jobviteKanbanLoaded = true;
 	
-	
-
-
+	//Test Comment
 	var candidates = $("#jv-searchCandidateGrid tr").not("#jv-gridHeader").map(function(key, item) {
 							var obj = {};
 							obj.link = $(item).find(".jv-candidateName a").attr("href");
