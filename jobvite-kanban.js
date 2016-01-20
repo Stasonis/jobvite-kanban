@@ -97,7 +97,7 @@ if(typeof window.jobviteKanbanLoaded == "undefined") {
 			var link = $(this).data("link");
 			
 			if(link !== null) {
-				window.location = link;
+				window.open(link, "_blank");
 			}
 		});
 		
