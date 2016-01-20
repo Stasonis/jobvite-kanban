@@ -1,0 +1,3 @@
+Add a bookmark to your browswer for the following link:
+
+javascript:$('head').append("<script type='text/javascript' src='https://rawgit.com/Stasonis/jobvite-kanban/master/jobvite-kanban.js'></script>")
