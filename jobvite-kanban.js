@@ -64,7 +64,7 @@ if(typeof window.jobviteKanbanLoaded == "undefined") {
 		var candidateRow = $("<tr>");
 		table.append(candidateRow);
 
-		var candidateCell = $.templates("<div data-link='{{:link}}' class='candidate {{if daysSinceLastActivity > 5}}longInactivity{{/if}}'> \
+		var candidateCell = $.templates("<div data-link='{{:link}}' class='candidate {{if daysSinceLastActivity > 7}}longInactivity{{/if}}'> \
 											<div class='candidateName'> \
 												{{:name}} \
 											</div> \
